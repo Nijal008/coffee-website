@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Special Elite', cursive;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-size: 25px;
+    background-color: #603601;
+    
+   
+
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: BOLD;
+    font-size:28px;
+
+}
+#home{
+    width: 100%;
+    height:100vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5f3d2d73e5c5422ef26961ee/1597910500444-F0O7WLEE915B198GP4EP/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg?format=original);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#home h1{
+   justify-content: left;
+   padding-top: 30vh;
+   padding-left: 60px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 30px;
+}
+#orders{
+    height:100vh;
+    background-color:#603601;
+}
+#contact{
+    height:100vh;
+    background-color: #603601;
+}
+#about{
+    height:100vh;
+    background-color: #603601;
+    
+} #about p{
+    padding-top:18vh;
+    font-size: 40px;
+    text-align: center;
+}
+.coffee img {
+    width: 300px;
+    height:450px;
+    object-fit: cover;
+    
+    
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #contact{
+    background: url(https://th.bing.com/th/id/R.6132733c6f2fb6250662f030f80dea4d?rik=AdKtDgmP%2bvX%2fQQ&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0255%2f4049%2f3402%2ffiles%2fslide-2_1200x1200.jpg%3fv%3d1574612612&ehk=lSRoKqhIeadGj3qqRDoRWmcDyXPpk9LT5c%2b0jjcDS4g%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    height:100vh;
+  
+  }
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+  }
+  
+  .contact-form-text{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: white;
+    padding: 20px 40px;
+    color: black;
+    font-weight:bold;
+    transition: 0.5s;
+  }
+  
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    float: right;
+    border: 0;
+    background: black;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+  }
+  .contact-form-btn:hover{
+    background: #131313;
+  }
+  .contact-info p{
+    padding-top: 20px;
+  font-size: 30px;
+  color: whitesmoke;
+  }
+  .contact-info a:hover{
+    color: yellow;
+  
+  }
+ 
+  
