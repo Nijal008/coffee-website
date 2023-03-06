@@ -13,6 +13,7 @@ nav{
     font-size: 25px;
     background-color: #603601;
     
+    
    
 
 }
@@ -20,6 +21,7 @@ nav li{
     list-style-type: none;
     display: inline-block;
     padding: 15px;
+    
 }
 a{
     text-decoration: none;
@@ -61,12 +63,18 @@ h1{
 }
 #about{
     height:100vh;
-    background-color: #603601;
+    background:url(https://i.pinimg.com/originals/61/82/ba/6182ba2ad1dea9aea1f211dcd019dc32.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: right;
     
 } #about p{
-    padding-top:18vh;
+    padding-top:10vh;
     font-size: 40px;
     text-align: center;
+    width: 50%;
+    color:#fff;
+    background-color: #603601;
 }
 .coffee img {
     width: 300px;
