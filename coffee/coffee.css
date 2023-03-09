@@ -90,6 +90,22 @@ h1{
     align-items: center;
     
   }
+  .submit_section{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
+    
+  }
+  input[type='submit']{
+ padding: 10px 20px;
+}
+input[type='reset']{
+  padding: 10px 20px;
+}
+  
 
   #contact{
     background: url(https://th.bing.com/th/id/R.6132733c6f2fb6250662f030f80dea4d?rik=AdKtDgmP%2bvX%2fQQ&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0255%2f4049%2f3402%2ffiles%2fslide-2_1200x1200.jpg%3fv%3d1574612612&ehk=lSRoKqhIeadGj3qqRDoRWmcDyXPpk9LT5c%2b0jjcDS4g%3d&risl=&pid=ImgRaw&r=0);
